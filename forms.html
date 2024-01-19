@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="styles.css">
+<title>CatForms</title>
+  </head>
+  <body>
+    <header style="background-color: rgb(250, 243, 243); color: rgb(141, 13, 28); border: 4px solid rgb(246, 214, 239);">
+        <h2 class="catform">Cat Form</h2>
+    </header>
+    <main>
+        <form>
+    <fieldset>
+        <legend>Is your cat an indoor or outdoor cat?</legend>
+        <input type="radio" id="indoor" name="door"><label for="indoor" value="Indoor">Indoor</label>
+        <input type="radio" id="outdoor" name="door"><label for="outdoor" value="outdoor">Outdoor</label>
+    </fieldset>
+    <fieldset>
+        <legend>Whats your cats personality</legend>
+        <input type="checkbox" id="loving" name="personality"><label for="loving" value="Loving">Loving</label>
+        <input type="checkbox" id="lazy" name="personality"><label for="lazy" value="Lazy">Lazy</label>
+        <input type="checkbox" id="energetic" name="personality"><label for="energetic" value="energetic">Energetic</label>
+    </fieldset>
+    
+    <input required type="text" id="url" placeholder="cat photo URL">
+    <button>Submit</button>
+        </form>
+
+    </main>
+  </body>
+</html>

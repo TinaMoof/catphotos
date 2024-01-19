@@ -1,0 +1,138 @@
+body {
+  background-image: url(catwallpaper.jpg);
+  width: 100%;
+  height: 50%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+header {
+    background-color: rgb(120, 5, 49);
+    color: rgb(249, 228, 244);
+    width: 100%;
+    font-size: 25px;
+    padding: 1%;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+
+}
+
+.text {
+background-color: rgb(246, 214, 239);
+border: 3px solid rgb(246, 214, 239);
+border-radius: 5%;
+color: rgb(120, 5, 49);
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.cute {
+   margin: 3%; margin-top: 5%;
+}
+
+.catform {
+font-size: 3rem;
+color: rgb(129, 27, 69);
+}
+
+form {
+   border: 20px solid rgb(129, 27, 69);
+   background-color: white;
+   border-radius: 20%;
+   display: flex;
+   flex-direction: column;
+   padding: 10px;
+   min-width: 30vh;
+   max-width: 40vh;
+   min-height: 40vh;
+   max-height: 50vh;
+   margin: auto;
+   margin-top: 7%;
+}
+
+fieldset {
+    margin: auto;
+    border-color:rgb(129, 27, 69);
+    min-width: 50%;
+}
+
+button {
+    border: none;
+    background-color: rgb(129, 27, 69);
+    color: snow;
+    padding: 15px;
+    border-radius: 50%;
+    max-width: 20vh;
+    margin: auto;
+}
+
+#url {border-color: rgb(129, 27, 69);
+border-radius: 2%;
+height: 3vh;
+margin: 5%;
+max-width: 70%;
+margin: auto;
+}
+
+
+li {
+    display: inline;
+
+}
+
+.cat {
+
+    background-color: rgba(246, 214, 239, 90%);
+    border-radius: 8%;
+    margin: 5%
+}
+
+img {
+    max-width: 35vh;
+    max-height: 35vh;
+    border-radius: 5%;
+}
+
+fieldset {
+    width: 30%;
+    height: 30%;
+}
+
+.flexbox-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.flexbox-item {   
+
+    margin: 5%;
+    margin-top: 10%;
+    background-color: white;
+   min-width: 50vh;
+   min-height: 45vh;
+    color: rgb(129, 27, 69);
+    border: 2px solid rgb(246, 214, 239);
+border-radius: 5%;    
+}
+
+.flexbox-item li {display: list-item; text-align: left;}
+.flexbox-item p {font-size: 3rem;}
+
+a {text-decoration: none; color: rgb(0, 0, 0);}
+
+a:hover {color: white;}
+
+footer p {
+border: 5px dotted rgb(129, 27, 69);;
+color: rgb(129, 27, 69);
+font-style: italic;
+background-color: rgb(246, 214, 239);
+margin: 0;
+padding: 2%;
+}
+
+
