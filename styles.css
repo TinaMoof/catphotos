@@ -28,6 +28,10 @@ color: rgb(120, 5, 49);
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.paws {
+  display: flex;
+  flew-wrap: wrap;
+}
 .cute {
    margin: 3%; margin-top: 5%;
 }
