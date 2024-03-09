@@ -31,7 +31,9 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 .paws {
   display: flex;
   flew-wrap: wrap;
-  margin: auto;
+  justify-content: center;
+  alignt-items: center;
+  gap: 2em;
 }
 .cute {
    margin: 3%; margin-top: 5%;
